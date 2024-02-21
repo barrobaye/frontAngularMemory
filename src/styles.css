@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.css';
+
+body{
+    background-color: #83A2FF;
+
+}
+.navi{
+    margin: AUTO;
+    width: 1777px;
+}
+.pages{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
