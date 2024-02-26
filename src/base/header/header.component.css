@@ -1,0 +1,13 @@
+.navi{
+    margin: AUTO;
+    width: 1777px;
+}
+.pages{
+    width: 40%;
+    display: flex;
+    justify-content:space-around;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

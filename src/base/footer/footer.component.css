@@ -19,13 +19,16 @@
     border-right: solid 2px #676060;
 }
 .right{
+    position: relative;
     padding-left: 25px;
     margin-bottom: 12px;
    margin-top: 12px;
     width: 35%;
     border-left: solid 2px #676060;
+    justify-content: space-between;
 }
 .bloc1{ 
+
     width: auto;
     height: 30%;
 }
@@ -34,9 +37,20 @@
     height: 30%;
 }
 .bloc3{ 
+    justify-content: space-between;
+    width: 170px;
     display: flex;
-    width: auto;
     height: 10%;
+}
+.bloc4{
+    
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+}
+.text{
+    width: 180px;
 }
 .foot{
 display: flex;
@@ -54,6 +68,7 @@ justify-content: space-between;
 }
 p{
     color:#676060; 
+    font-size: small;
 }
 h2{
     color:#676060;  
