@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+.pageac{
+    margin: auto;
+    width: 1777px;
+    height: 425px;
+    display: flex;
+}
+.left{
+    width: 45%;
+    float: left;
+    background-color: #FFE3BB;
+}
+.titleone{
+    margin-left: 10px;
+    width:  90%;
+    font-size: 44px;
+    color:black;
+    font-family:'Microsoft YaHei';
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.para{
+    width: 80%;
+    margin-left: 10px;
+    line-height: 28px;
+     margin-bottom: 25px;
+    font-family:'Microsoft YaHei';
+    letter-spacing: 1px;
+    font-size: 16px
+}
+.right{
+    width: 55%;
+    float: right;
+    overflow: hidden;
+}
+.laveimg{
+    width: 100%;
+    height: 100%;
+}
+.downloader {
+    margin-top: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.bt{
+    border-radius: 5px;
+    display: flex;
+    background-color: black;
+    border: none;
+    height: 50px;
+    align-items: center;
+    width: 190px;
+}
+.tab{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    p {
+    font-size: 10px;
+    margin-bottom:0px;
+    }
+}
+
+.download-button i {
+    margin-right: 10px;
+  }
+
+  .download-button.apple {
+    background-color: #6CA0DC; /* Light blue */
+  }
+
+  .download-button.android {
+    background-color: #FFC107; /* Amber */
+  }
+.pageactwo{
+    margin: auto;
+    width: 1777px;
+    height: 425px;
+    display: flex;
+}
+.leftimg{
+    display: block;
+    width: 50%;
+    background-image: url('/assets/img/womanyesjob.jpg');
+    -webkit-background-size: cover;
+
+}
+
+.titletwo{
+    margin: auto;
+    width:  90%;
+    font-size: 44px;
+    color:white;
+    font-family:'Microsoft YaHei';
+    text-align: center;
+    font-weight: bold;
+
+}
+.titlethree{
+    margin: auto;
+    width:  90%;
+    font-size: 44px;
+    color:white;
+    font-family:'Microsoft YaHei';
+    text-align: center;
+    font-weight: bold;
+
+}
+.paratwo{
+    color: white;
+    line-height: 28px;
+    font-family:'Microsoft YaHei';
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-align:center;
+
+}
+.parathree{
+    position: relative;
+    color: white;
+    line-height: 28px;
+    font-family:'Microsoft YaHei';
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-align:center;
+}
+.rightimg{
+    display: block;
+    width: 50%;
+    background-image: url('/assets/img/whatsubject.jpg');
+}
+.btnplace{
+    display: flex;
+    width: 1777px;
+    margin: auto;
+    height: 200px;
+}
+.matter{
+    margin: auto;
+    width: 470px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    button{
+        height: 57px;
+        border-radius: 7px;
+        border: none;
+        width: 187px;
+        box-shadow: 15px 15px 5px beige;
+        }
+}
+
+
+
+
+/*
+=========================
+Fonts
+=========================
+
+font-family: 'Outfit', sans-serif;
+
+*/
+
+
+/*
+========================
+Variables
+========================
+*/
+
+
+
+
+/*
+=======================
+Setup
+=======================
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+
+img {
+    width: 100%;
+    border-radius: 15px;
+    display: block;
+}
+
+a {
+    color: inherit;
+}
+
+/*
+
+Eye view
+
+https://i.postimg.cc/9MtT4GZY/view.png' border='0' alt='view */
+
+/*
+=========================
+Font Styling
+=========================
+*/
+
+
+
+span {
+    color: white;
+}
+/*
+=====================
+Classes
+=====================
+*/
+
+/* LAYOUT */
+
+.card-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 2em auto;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+
+a.hero-image-container {
+    position: relative;
+    display: block;
+}
+
+/* Details */
+
+img.eye {
+    position: absolute;
+    width: 100%;
+    max-width: 2em;
+    top: 44%;
+    left: 43%;
+}
+
+@media (min-width:400px) {
+  img.eye {
+    max-width: 3em;
+}
+}
+
+.hero-image-container::after {
+    content: '';
+    background-image: url("https://i.postimg.cc/9MtT4GZY/view.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 5rem;
+    background-color: hsla(178, 100%, 50%, 0.3);
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.hero-image-container:hover::after {
+  opacity: 1;
+}
+
+.small-image {
+    width: 1.2em;
+    margin-right: .5em;
+}
+
+.small-avatar {
+    width: 2em;
+    border-radius: 200px;
+    outline: 2px solid white;
+    margin-right: 1.4em;
+}
+
+div.attribution {
+    margin: 0 auto;
+    width: 100%;
+    font: var(--var-para);
+    text-align: center;
+    padding: 1.5em 0 4em 0;
+    color: var(--var-line-dark);
+}
+.attribution a {
+    color: var(--var-soft-blue);
+}
+
+@media (min-width:600px) {
+    body {
+        font-size: 18px;
+    }
+}
+.titleservice{
+    -webkit-background-size: cover;
+    text-align: center;
+    background-image: url(/assets/img/bgserv.jpg);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+
+}
+.allservice{
+    width: 900px;
+    float:right;
+}
