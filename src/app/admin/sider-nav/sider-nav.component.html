@@ -1,0 +1,12 @@
+<h2 class="concave">Admin Panel</h2>
+<ul>
+  @for (item of items; track items) {
+    <li [routerLink]="item.link">
+        <span class="icon material-symbols-outlined">
+            {{item.icon}}
+        </span>
+        <span class="data">{{item.title}}</span>
+    </li>  
+  }
+  
+</ul>

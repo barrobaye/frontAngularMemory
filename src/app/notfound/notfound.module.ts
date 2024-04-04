@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NotfoundComponent } from './notfound.component';
+import { Routes } from '@angular/router';
+
 
 
 @NgModule({
@@ -8,4 +11,4 @@ import { CommonModule } from '@angular/common';
     CommonModule
   ]
 })
-export class AdminModule { }
+export class NotfoundModule { }
