@@ -3,9 +3,13 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { AcceuilComponent } from '../acceuil/acceuil.component';
 import { NotfoundComponent } from '../../notfound/notfound.component';
+import { AdminComponent } from '../../admin/admin/admin.component';
  const routes : Routes = [
-  {path:'acceuil', component:AcceuilComponent},
- // {path:'**', component:NotfoundComponent}
+  {path:'', component:AcceuilComponent},
+  {path:'dashboard', component:AdminComponent},
+  //{ path: '', redirectTo: '/home', pathMatch: 'full' },
+   {path:'**', component:NotfoundComponent}
+  
 ];
  
 @NgModule({

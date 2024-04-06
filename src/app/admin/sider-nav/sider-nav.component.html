@@ -1,12 +1,23 @@
-<h2 class="concave">Admin Panel</h2>
-<ul>
-  @for (item of items; track items) {
-    <li [routerLink]="item.link">
-        <span class="icon material-symbols-outlined">
-            {{item.icon}}
-        </span>
-        <span class="data">{{item.title}}</span>
-    </li>  
-  }
+<div class="container-sider">
+  <div class="idea">
+    <div class="idea-icon">
+      <h4>Mamadou Barro</h4>
+    </div>
+    <div class="idea-img"><img src="/assets/img/logoclair.png" alt=""></div>
   
-</ul>
+  </div>
+<div>
+  <h2 class="concave">Admin Panel</h2>
+  <ul>
+    @for (item of items; track items)  {
+      <li [routerLink]="item.link" routerLinkActive="active">
+          <span class="icon material-symbols-outlined">
+              {{item.icon}}
+          </span>
+          <span class="data">{{item.title}}</span>
+      </li>  
+    }
+    
+  </ul>
+</div>
+</div>

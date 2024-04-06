@@ -5,6 +5,28 @@
     padding: 0.5rem;
     overflow: hidden;
 }
+.idea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:  98%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14pt
+
+}
+img{
+    width:  100px;
+}
+.container-sider{
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    height: auto;
+    justify-content: space-around;
+}
+
 h2{
     font-weight: bold;
     font-size:large;
@@ -22,7 +44,7 @@ ul{
             gap: 8px;
             &:hover{
                 cursor: pointer;
-                background-color: var(--light-black);
+                background-color: rgb(48, 48, 48,0.2);
             }
         .icon{
                 width: 40px;
@@ -37,6 +59,10 @@ ul{
             align-items: center;
             font-weight: 500;
         }    
+        &.active{
+            cursor: pointer;
+            background-color: rgb(48, 48, 48,0.2);
+        }
     }
 }
 .concave{

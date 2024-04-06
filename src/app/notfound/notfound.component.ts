@@ -8,13 +8,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './notfound.component.html',
   styleUrl: './notfound.component.css'
 })
-export class NotfoundComponent  implements  OnInit{
-  constructor(private location: Location) {}
-  ngOnInit(): void {
-    // throw new Error('Not found');
-  }
-  cancel(){
-    this.location;
-  }
-
+export class NotfoundComponent  {
+  
 }

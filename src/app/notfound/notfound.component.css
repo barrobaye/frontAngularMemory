@@ -1,0 +1,28 @@
+
+
+.notfoundcard{
+    width: 500px;
+   height: 400px;
+   margin: auto;
+   margin-top: 12%;
+   padding: auto;
+    display: grid;
+     align-items: center;
+    img{
+        margin: auto;
+        align-items: center;
+        height: 300px;
+    }
+}
+h1{
+    text-align: center;
+}
+button{
+    align-items: center;
+    background-color: #83A2FF;
+    border: 2px solid #000000;
+    margin: auto;
+    height: 57px;
+    border-radius: 7px;
+    width: 187px;
+}
