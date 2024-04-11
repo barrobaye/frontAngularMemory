@@ -4,6 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AcceuilComponent } from '../acceuil/acceuil.component';
 import { NotfoundComponent } from '../../notfound/notfound.component';
 import { AdminComponent } from '../../admin/admin/admin.component';
+import { BaseChartDirective, NG_CHARTS_CONFIGURATION } from 'ng2-charts';
+
  const routes : Routes = [
   {path:'', component:AcceuilComponent},
   {path:'dashboard', component:AdminComponent},
@@ -14,7 +16,7 @@ import { AdminComponent } from '../../admin/admin/admin.component';
  
 @NgModule({
   declarations: [],
-  imports: [
+  imports: [ 
     RouterModule.forChild(routes),
     CommonModule
     

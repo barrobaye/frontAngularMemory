@@ -8,7 +8,7 @@ import { NotfoundComponent } from '../notfound/notfound.component';
 @NgModule({
   declarations: [],
   imports: [
-   
+    ChartsModule,
     CommonModule
     
   ]

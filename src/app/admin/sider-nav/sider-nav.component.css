@@ -23,7 +23,7 @@ img{
     display: inline-block;
     vertical-align: top;
     text-align: left;
-    height: auto;
+    height: 100vh;
     justify-content: space-around;
 }
 

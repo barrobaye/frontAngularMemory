@@ -1,12 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ChartData } from 'chart.js';
+import { Chart } from 'chart.js/dist';
+import { BarChartComponent } from '../admin/bar-chart/bar-chart.component';
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [],
+  imports: [BarChartComponent],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })
-export class DashboardComponent {
+export class DashboardComponent implements OnInit{
+  constructor() {}
+  ngOnInit(): void {
+    
+  }
+ };
+ 
 
-}
