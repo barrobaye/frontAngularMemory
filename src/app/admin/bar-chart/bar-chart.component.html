@@ -1,2 +1,15 @@
-<canvas baseChart [type]="'bar'" [data]="data"></canvas>
+
+    <h3>Users & Demande Analyse </h3>
+    <table>
+        <tr>
+            <td> Total Utilisateurs</td>
+            <td>{{getTotalUsers()}} </td>
+        </tr>
+        <tr>
+            <td> Total Demandes</td>
+            <td>{{getTotalDemandes()}}</td>
+        </tr>
+    </table>
+    <canvas  baseChart [type]="'bar'" [data]="data"></canvas>
+
 

@@ -1,14 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule, Routes } from '@angular/router';
-import { AdminComponent } from './admin/admin.component';
-import { NotfoundComponent } from '../notfound/notfound.component';
+import { StatisDashboardComponent } from './statis-dashboard/statis-dashboard.component';
+
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    
+  
+    
+  
+    
+  ],
   imports: [
-    ChartsModule,
     CommonModule
     
   ]

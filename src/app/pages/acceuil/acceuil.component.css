@@ -11,7 +11,7 @@
 }
 .titleone{
     margin-left: 10px;
-    width:  90%;
+    width:  100%;
     font-size: 44px;
     color:black;
     font-family:'Microsoft YaHei';
@@ -36,30 +36,15 @@
     width: 100%;
     height: 100%;
 }
-.downloader {
-    margin-top: 40px;
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-}
-.bt{
-    border-radius: 5px;
-    display: flex;
-    background-color: black;
-    border: none;
-    height: 50px;
-    align-items: center;
-    width: 190px;
-}
-.tab{
+.tab{ 
+    width: auto;
     display: block;
     margin: auto;
     text-align: center;
     padding-top: 10px;
     p {
     font-size: 10px;
-    margin-bottom:0px;
-    }
+    margin-bottom:0px; }
 }
 
 .download-button i {

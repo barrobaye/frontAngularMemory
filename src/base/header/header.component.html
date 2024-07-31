@@ -2,11 +2,16 @@
     <a class="navbar-brand" href="#">
       <img src="assets/img/logo.png" width="auto" height="100" alt="">
     </a>
-    <div class="pages">
-      <a href=""><span id="page">Travailleur</span></a>
-      <a href=""><span id="page">Partenaire</span></a>
-      <a href=""><span id="page">Recruteur</span></a>
-      <a href=""><span id="page">Carriére</span></a>  
+    <div  class="pages">
+      <ul>
+        @for (item of items; track items) {
+          <li ngIf="item.isActive" routerLinkActive="" [routerLink]="item.link" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+            <span>{{item.title}}</span>
+          </li>
+        }
+      </ul>
+       
+     
     </div>
 </nav>
 

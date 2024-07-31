@@ -12,4 +12,20 @@ body{
 app-root{
     font-family: "Poppins", sans-serif ;
 }
+.downloader {
+    margin-top: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.bt{
+    border-radius: 5px;
+    display: flex;
+    background-color: black;
+    border: none;
+    height: 50px;
+    align-items: center;
+    width: 190px;
+}
+
 
